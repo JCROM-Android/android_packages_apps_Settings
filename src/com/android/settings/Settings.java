@@ -181,6 +181,9 @@ public class Settings extends PreferenceActivity
             R.id.print_settings,
             R.id.nfc_payment_settings,
             R.id.home_settings,
+            R.id.home_settings,
+            R.id.jcrom_settings,
+            R.id.jcrom_developers,
             R.id.interface_section,
             R.id.lock_screen_settings,
             R.id.system_settings,
@@ -373,6 +376,7 @@ public class Settings extends PreferenceActivity
         TrustedCredentialsSettings.class.getName(),
         PaymentSettings.class.getName(),
         KeyboardLayoutPickerFragment.class.getName(),
+        JapaneseCustomRomSettings.class.getName(),
         BlacklistSettings.class.getName(),
         ApnSettings.class.getName(),
         HomeSettings.class.getName(),
@@ -1222,6 +1226,7 @@ public class Settings extends PreferenceActivity
             return super.isValidFragment(className);
         }
     }
+    public static class JapaneseCustomRomSettingsActivity extends Settings { /* empty */ }
     public static class StorageUseActivity extends Settings { /* empty */ }
     public static class DevelopmentSettingsActivity extends Settings { /* empty */ }
     public static class AccessibilitySettingsActivity extends Settings { /* empty */ }
