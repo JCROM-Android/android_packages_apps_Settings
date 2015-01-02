@@ -311,6 +311,7 @@ public class SettingsActivity extends Activity
             OtherSoundSettings.class.getName(),
             QuickLaunchSettings.class.getName(),
             ApnSettings.class.getName(),
+            JapaneseCustomRomSettings.class.getName(),
             BlacklistSettings.class.getName(),
             com.android.settings.cyanogenmod.PrivacySettings.class.getName()
     };
